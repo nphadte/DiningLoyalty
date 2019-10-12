@@ -1,0 +1,24 @@
+/*
+package com.ndp.spring.rewardsloyalty.DiningLoyalty.aspects;
+
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import com.ndp.spring.rewardsloyalty.DiningLoyalty.exception.RewardDataAccessException;
+import org.aspectj.lang.annotation.Aspect;
+
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class DBExceptionHandlingAspect {
+    public static final String EMAIL_FAILURE_MSG = "Failed sending an email: ";
+
+    private static final Logger log = LoggerFactory.getLogger(DBExceptionHandlingAspect.class);
+
+    @AfterThrowing(value="execution(public * com.ndp.spring.rewardsloyalty.DiningLoyalty.*.*Repository.*(..))", throwing="e")
+    public void implExceptionHandling(RewardDataAccessException e){
+        // Log a failure warning
+        log.warn(EMAIL_FAILURE_MSG + e + "\n");
+    }
+}*/

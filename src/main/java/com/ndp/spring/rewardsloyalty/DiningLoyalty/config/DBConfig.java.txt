@@ -1,0 +1,7 @@
+/*
+package com.ndp.spring.rewardsloyalty.DiningLoyalty.config;
+
+public class DBConfig
+{
+}
+*/
